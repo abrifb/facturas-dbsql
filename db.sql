@@ -1,6 +1,4 @@
--- =====================================
--- P1. CREACIÓN DE TABLAS
--- =====================================
+
 
 SELECT * FROM detalle_facturas;
 SELECT * FROM existencias;
