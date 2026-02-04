@@ -1,5 +1,4 @@
 
-
 SELECT * FROM detalle_facturas;
 SELECT * FROM existencias;
 SELECT * FROM facturas;
@@ -59,9 +58,6 @@ INSERT INTO productos (nombre, descripcion) VALUES
 ('Jamón', 'Jamón de pavo'),
 ('Mantequilla', 'Mantequilla sin sal');
 
--- =====================================
--- P3. INSERTAR EXISTENCIAS
--- =====================================
 
 INSERT INTO existencias (id_producto, cantidad, precio, pesoKg) VALUES
 (1, 20, 1200, 1),
@@ -83,9 +79,6 @@ INSERT INTO facturas (rut_comprador, rut_vendedor) VALUES
 ('66666666-6', '77777777-7'),
 ('88888888-8', '99999999-9');
 
--- =====================================
--- P5. DETALLE FACTURAS
--- =====================================
 
 INSERT INTO detalle_facturas (id_factura, id_producto) VALUES
 (1, 1),
